@@ -1,0 +1,7 @@
+name: Space-In-Bottle
+version: '${project.version}'
+main: nankotsu029.spaceinbottle.SystemCore
+api-version: 1.19
+authors: [ nankotsu029 ]
+description: Space in bottle
+website: https://github.com/nankotsu029/Space-in-bottle
