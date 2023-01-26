@@ -5,3 +5,21 @@ api-version: 1.19
 authors: [ nankotsu029 ]
 description: Space in bottle
 website: https://github.com/nankotsu029/Space-in-bottle
+
+commands:
+  CreatePortalSpaceWorld:
+    description: Create new Portal Space
+    usage: /<command>
+    aliases: cpsw
+  ChangeWorld:
+    description: change world
+    usage: /<command>
+    aliases: cw
+  PortalSpace:
+    description: Portal Space Commands
+    usage: /<command>
+    aliases: ps
+  getPortalSpaceItem:
+    description: Give player PortalSpaceeItem
+    usage: /<command>
+    aliases: gpsi
