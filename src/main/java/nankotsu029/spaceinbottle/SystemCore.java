@@ -30,7 +30,7 @@ public final class SystemCore extends JavaPlugin {
         getCommand("PortalSpace").setExecutor(new Commands());
         getCommand("getPortalSpaceItem").setExecutor(new Commands());
         new Events(this);
-        File PBWorldFile = new File(this.getDataFolder().getParentFile().getParent(),"PortalSpaceWorld");
+        File PBWorldFile = new File("PortalSpaceWorld");
         if (PBWorldFile.exists()) {
             new WorldCreator("PortalSpaceWorld").environment(World.Environment.NORMAL).createWorld();
         }
@@ -83,7 +83,7 @@ public final class SystemCore extends JavaPlugin {
     }
 
     private void getWorldProperty() throws IOException {
-        FileInputStream fis =  new FileInputStream(new File(this.getDataFolder().getParentFile().getParent(),"server.properties"));;
+        FileInputStream fis =  new FileInputStream("server.properties");
         Properties serverProperties = new Properties();
         serverProperties.load(fis);
         mainWorld = Bukkit.getWorld(serverProperties.getProperty("level-name"));
