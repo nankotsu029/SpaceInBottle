@@ -1,4 +1,4 @@
-name: Space-In-Bottle
+name: SpaceInBottle
 version: '${project.version}'
 main: nankotsu029.spaceinbottle.SystemCore
 api-version: 1.19

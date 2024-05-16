@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>nankotsu029</groupId>
-    <artifactId>Space-in-bottle</artifactId>
+    <artifactId>SpaceInBottle</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
